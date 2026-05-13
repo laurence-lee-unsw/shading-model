@@ -1,1 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 .venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs
+figures/*.png
+figures/*.pdf
+figures/*.svg
+data/*.csv
+data/*.json
+data/*.xlsx
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
